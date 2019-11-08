@@ -77,7 +77,7 @@ const imageTargetPipelineModule = () => {
     }
     // When the image target named 'video-target' is detected, play video.
     // This string must match the name of the image target uploaded to 8th Wall.
-    if (detail.name === 'video-target') {
+    if (detail.name === '2') {
       videoObj.position.copy(detail.position)
       videoObj.quaternion.copy(detail.rotation)
       videoObj.scale.set(detail.scale, detail.scale, detail.scale)
